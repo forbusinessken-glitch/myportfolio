@@ -1,0 +1,132 @@
+﻿
+.outer {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+
+    
+}
+
+.password_outer {
+    width: 26rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .password_outer label {
+        line-height: 2.3rem;
+    }
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    /*text-align: center;*/
+}
+
+input {
+    width: 10rem;
+    margin-top: 2rem;
+    display: block;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+p {
+    padding-bottom: 0rem;
+    margin-bottom: 0.2rem;
+}
+
+img {
+    display: inline-block;
+    margin-right: 1.2rem;
+    margin-top: 0.5rem;
+    width: 120px;
+    height: 100px;
+    border: 1px #ff0000 solid;
+    transition: all 0.3s;
+}
+    img:hover {
+        transform: scale(1.1);
+    }
+
+.introduction {
+    color:#101010;
+    font-size: 0.85em;
+    margin-bottom: 3rem;
+}
+
+.product_outer {
+    margin-bottom: 3rem;
+    animation: fadeIn 0.8s ease 0s 1 normal;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.product {
+    margin-bottom: 1.3rem;
+    
+}
+
+
+.title {
+    font-size: 1.1em;
+    transition: 0.2s all linear;
+}
+    .title:hover {
+        color: #ff0000;
+        transform: translateX(1px);
+    }
+    .title::before {
+        content: "➡";
+        padding-right: 0.5rem;
+            
+    }
+        .month {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+
+    .description {
+        margin-left: 1rem;
+        
+    }
+    .app_title {
+        display: block;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        margin-left: 0.7rem;
+        font-style: italic;
+        font-size: 1.2em;
+    }
+    .environment {
+        display: block;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        margin-left: 0.5rem;
+        color: #505050;
+        font-size: 0.98em;
+    }
+
+
+.description a {
+    display: inline-block;
+}
+
+
